@@ -1,12 +1,14 @@
 <?php
 /*
- * Plugin Name:   Custom CSS and JS Plugin
- * Plugin URI:    learningsystems.ca
- * Description:   Add a custom CSS stylesheet and JavaScript file to WordPress, originally from https://github.com/jpen365/custom-css-and-js-plugin
- * Version:       1.0
- * Author:        Jason Shaw
- * Author URI:    learningsystems.ca
- * */
+Plugin Name:    Custom CSS and JS
+Plugin URI:     https://github.com/mrjshaw/custom-css-and-js/
+Description:    A simple plugin to add custom CSS and JS. Comes in handy when you are making slight customizations to a child theme.
+Version:        1.0
+Author:         Jason Shaw
+Author URI:     https://learningsystems.ca
+License:        GNU General Public License v2 or later
+License URI:    http://www.gnu.org/licenses/gpl-2.0.html
+*/
 function custom_css_js_enqueue_scripts() {
   /* enqueue the custom-style.css file */
   wp_enqueue_style( 'bootstrap-css', plugins_url( '/css/bootstrap-theme.min.css', __FILE__ ), $ver = false );
