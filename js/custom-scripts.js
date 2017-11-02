@@ -1,4 +1,12 @@
-
+/*
+Plugin Name:    Custom CSS and JS
+Plugin URI:     https://github.com/mrjshaw/custom-css-and-js/
+Description:    A simple plugin to add custom CSS and JS. Comes in handy when you are making slight customizations to a child theme.
+Author:         Jason Shaw
+Author URI:     https://learningsystems.ca
+License:        GNU General Public License v2 or later
+License URI:    http://www.gnu.org/licenses/gpl-2.0.html
+*/
 // One page nav code 
 jQuery( document ).ready(function(){
   /* Add padding and id's to each front page section */
